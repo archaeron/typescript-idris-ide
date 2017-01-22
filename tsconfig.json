@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2017"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "out",
+    "pretty": true,
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es2015"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    ".vscode-test"
+  ]
+}

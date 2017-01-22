@@ -1,0 +1,30 @@
+{
+  "name": "typescript-idris-ide",
+  "description": "talk to idris via the idris IDE-protocol in typescript ",
+  "version": "0.0.1",
+  "publisher": "archaeron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archaeron/typsecript-idris-ide/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/archaeron/typsecript-idris-ide"
+  },
+  "main": "./out/idris.js",
+  "dependencies": {
+    "global": "^4.3.1",
+    "@reactivex/rxjs": "5.0.x"
+  },
+  "devDependencies": {
+    "typescript": "^2.1.5",
+    "@types/node": "^6.x",
+    "@types/mocha": "^2.2.38",
+    "mocha": "3.2.x",
+    "chevrotain": "0.20.x"
+  },
+  "scripts": {
+    "watch": "tsc -watch -p ./",
+    "compile": "tsc -p ./"
+  }
+}
